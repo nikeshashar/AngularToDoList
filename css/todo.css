@@ -1,0 +1,15 @@
+.done-true {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.unstyled {
+  list-style: none;
+}
+
+.body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  background-color: #333;
+}
