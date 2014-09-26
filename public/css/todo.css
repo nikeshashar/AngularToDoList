@@ -54,6 +54,7 @@
   height: 41px;
   border-radius: 6px;
   border-style: hidden;
+  padding-left: 10px;
 }
 
 .each-item {
