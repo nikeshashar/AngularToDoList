@@ -9,7 +9,9 @@
 
   <body class="body">
     <div ng-controller="TodoCtrl" class="ng-controller">
-      <h2>Total things left to do: {{getTotalTodos()}}</h2>
+      <div class="topcontainer">
+        <h2>Total things left to do: {{getTotalTodos()}}</h2>
+      </div>
         <ul class="todolist">
           <li ng-repeat="todo in todos" class="each-item">
             <input type="checkbox" ng-model="todo.done">
@@ -18,11 +20,11 @@
         </ul>
 
       <form class="form-horizontal">
-            <input type="text" ng-model="formTodoText" ng-model-instant placeholder="what do you need?">
+            <input class="input" type="text" ng-model="formTodoText" ng-model-instant placeholder="  What's on your list today?">
             
-            <button class="btn btn-md btn-success" ng-click="addTodo()"><i class="icon-plus"></i>Add</button>
+            <button class="btn btn-md btn-success add-button" ng-click="addTodo()"><i class="icon-plus"></i>Add</button>
       </form>
-      <button class="btn btn-md btn-danger" ng-click="clearCompleted()"><i></i>Clear Completed</button>
+      <button class="btn btn-md btn-danger clear" ng-click="clearCompleted()"><i></i>Clear Completed</button>
      </div> 
 
 

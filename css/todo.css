@@ -8,6 +8,7 @@
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
   background-color: #333;
+  font-family: georgia;
 }
 
 .heading {
@@ -16,20 +17,43 @@
   font-size: 24px;
 }
 
+.topcontainer {
+  border-bottom: thin solid #333;
+  padding-bottom: 15px;
+}
+
 .todolist {
   list-style: none;
   margin: 30px 5px;
   padding-left: 30px;
-
+  font-family: verdana;
+  font-size: 20px;
+  text-align: -webkit-left;
 }
 
 .ng-controller {
-  background: yellow;
+  background: #ADADAD;
   width: 500px;
   margin-top: 50px;
   display: inline-block;
   padding-bottom: 20px;
   text-align: center;
+}
+
+.add-button {
+  height: 41px;
+}
+
+.clear {
+  margin-top: 8px;
+}
+
+.input {
+  color: #333;
+  width: 260px;
+  height: 41px;
+  border-radius: 6px;
+  border-style: hidden;
 }
 
 .each-item {
