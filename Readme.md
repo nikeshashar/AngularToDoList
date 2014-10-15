@@ -1,7 +1,7 @@
 
 
 ##What is it?
-+ A simple AngularJS To Do list
++ A simple AngularJS To Do list. You see a working version [here](http://aqueous-forest-4811.herokuapp.com/).
 
 ##Specifications:
 
@@ -25,4 +25,3 @@ git clone git@github.com:nikeshashar/AngularToDoList.git
 cd AngularToDoList
 open index.html
 ```
-
